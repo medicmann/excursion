@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  text-align: center; /*Negating multiple specifications*/
+}
+
+p.tophead {
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 50px;
+  color: white;
+}
+
+a.dwnlink {
+  color: aquamarine;
+  font-size: 16px;
+}
