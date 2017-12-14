@@ -1,14 +1,31 @@
+/* --Global changes will occur if this is edited-- */
 body {
   background-color: black;
   text-align: center; /*Negating multiple specifications*/
 }
+/* --Global changes will occur if this is edited-- */
 
-p.tophead {
+/* --Paragraph tags-- */
+p.tophead { /* Main header */
   font-family: Verdana;
   font-weight: normal;
   font-size: 50px;
   color: white;
 }
+
+p.midhead { /* Middle Header */
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+p.midsubhead { /* Small header under middle header */
+  font-family: Verdana;
+  font-size: 21px;
+  color: gray;
+}
+/* --Paragraph tags-- */
 
 a.dwnlink {
   color: aquamarine;
