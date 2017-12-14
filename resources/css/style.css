@@ -13,7 +13,7 @@ p.tophead { /* Main header */
   color: white;
 }
 
-p.midhead { /* Middle Header */
+p.midhead { /* Middle Header and footer header */
   font-family: Verdana;
   font-weight: 300;
   font-size: 42px;
@@ -25,9 +25,19 @@ p.midsubhead { /* Small header under middle header */
   font-size: 21px;
   color: gray;
 }
+
+p.copyright {
+  font-family: Verdana;
+  font-size: 21px; /* --Assuming same font-size as midsubhead class-- */
+  text-align: right;
+  color: gray;
+
+}
 /* --Paragraph tags-- */
 
+/* --A tags (hyperlinks)*/
 a.dwnlink {
   color: aquamarine;
   font-size: 16px;
 }
+/* --A tags (hyperlinks)*/
